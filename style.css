@@ -78,4 +78,51 @@ img{
     width:570px;
     height:299px;
 }
-    
+
+ /* Plants Section card style start */
+
+ .Plants-card{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1140px;
+    margin:auto;
+    gap:10px;
+ }
+ .plants-container{
+    text-align: center;
+    margin-right: 121px;
+    margin-top:30px;
+    margin-bottom: 30px;
+ }
+ .plants-color{
+    color:#E95A08;
+ }
+ .plants-description{
+    color:#cbcdd3;
+    margin-top: 10px;
+ }
+ .plants-title{
+    font-size: 2rem;
+ }
+ .cards-details-center{
+    text-align:center;
+    line-height: 30px;
+ }
+ .btn{
+    background-color: #E95A08;
+    color:white;
+    border:none;
+    padding:2px;
+    width:270px;
+    height:50px;
+    margin-top: 10px;
+    font-size: small;
+ }
+ /* Plants Section card style END */
+
+
+ .plants-lover{
+    display: flex;
+    justify-content: center;
+    ali
+ }
