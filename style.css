@@ -1,0 +1,81 @@
+*{
+    background-color:#f5f8ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav-bar section style start */
+
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    height:71px;
+    margin:auto;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    gap:20px;
+    margin-right: 200px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color:black;
+}
+nav li a:hover{
+    color:blue;
+}
+.card-icon{
+    width:15px;
+    height:15px;
+}
+
+/* Banner section style start */
+
+.main-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: 20px 150px;
+}
+img{
+    width:100%;
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-justify: auto;
+    width:570px;
+    height:299px;
+    margin-left: 20px;
+}
+.title-color{
+    color: #E95A08;
+}
+.banner-title{
+    font-size:2.5rem;
+    text-align: left;
+    margin-right: 21px;
+}
+.banner-description{
+    margin-top:10px;
+    color:#cbcdd3;
+}
+.hero-flowers{
+    width:570px;
+    height:299px;
+}
+    
