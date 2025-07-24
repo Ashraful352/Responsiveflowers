@@ -51,6 +51,7 @@ nav li a:hover{
 }
 img{
     width:100%;
+    height:100%;
 }
 .banner-left{
     display: flex;
@@ -223,13 +224,94 @@ img{
     outline: none;
     padding: 10px 15px;
    
-    
    }
    .join-content{
     margin-top:50px;
    }
+
+
+   .main footer{
+    max-width: 1440px;
+    height:348px;
+    margin:auto;
+    margin-top: 10px;
+    margin: 90px;
+    display:flex;
+    gap:30px;   
+   }
    
-   
+   .footer-container{
+       width:1120px;
+       height:248px;
+       display: flex;
+       justify-content: space-around;
+       justify-content: center;
+       align-items: flex-start;
+       column-gap: 50px;
+       row-gap: 70px;
+       gap:auto;
+       margin-bottom: 30px;
+   }
+
+   .footer-social-icon{
+    width:216px;
+    height:36px;
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    margin-left:50px;
+   }
+   .footer-logo{
+    width:359px;
+    height:179px;
+   }
+
+   .footer-logo img{
+    width:135px;
+    height:82px;
+   }
+   .footer-description{
+    width:359px;
+    height:81px;
+    font-size: 20px;
+   }
+   .footer-menu{
+    margin-top: 30px;
+    line-height: 40px;
+
+   }
+   .footer-menu li{
+    list-style: none;
+
+   }
+   .footer-menu li a{
+    text-decoration: none;
+    color:gray;
+   }
+   .footer-menu li a:hover{
+    color:blue;
+   }
+
+   .footer-more-menu{
+    margin-top: 30px;
+    line-height: 40px;
+
+
+   }
+
+   .footer-more-menu li{
+    list-style: none;
+
+   }
+
+   .footer-more-menu li a{
+    text-decoration: none;
+    color:gray;
+
+   }
+   .footer-more-menu li a:hover{
+    color:blue;
+   }
 
 
 
