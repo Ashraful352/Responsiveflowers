@@ -91,7 +91,7 @@ img{
  .plants-container{
     text-align: center;
     margin-right: 121px;
-    margin-top:30px;
+    margin-top:50px;
     margin-bottom: 30px;
  }
  .plants-color{
@@ -100,9 +100,10 @@ img{
  .plants-description{
     color:#cbcdd3;
     margin-top: 10px;
+    font-size: 22px;
  }
  .plants-title{
-    font-size: 2rem;
+    font-size: 3rem;
  }
  .cards-details-center{
     text-align:center;
@@ -121,8 +122,114 @@ img{
  /* Plants Section card style END */
 
 
+
+ /* Plants lover Section style start */
+
  .plants-lover{
     display: flex;
     justify-content: center;
-    ali
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+   margin-top:150px;
  }
+ .plants-lover-content{
+    margin-left:80px;
+    
+    margin:
+
+ }
+ .plants-lover-img img{
+    width:540px;
+    height:597px;
+ }
+ .plants-lover-title{
+    font-size: 50px;
+ }
+ .plants-unorder-description li{
+    margin-top: 30px;
+    font-size: 22px;
+    color:#c7c9cf;
+ }
+  /* Plants lover Section style End */
+
+  .deal-img-card-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width:1140px;
+    margin:auto;
+  }
+  .left-card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 753px;
+    height: 400px;
+
+  }
+  .card{
+    
+  }
+
+  .right-card{
+
+
+  }
+
+  .larg-card{
+    
+
+  }
+
+   /* join section start style */
+   .join-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    height:533px;
+    justify-content: center;
+    margin: auto;
+    background-image: url('assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+   }
+   .join-section-title{
+    font-size: 50px;
+     background-color: #217790;
+    color:white;
+   
+   }
+
+   .btn-join-section{
+    width:186px;
+    height:50px;
+    background-color: #E95A08;
+    border:none;
+    color:white;
+    font-size: 13px;
+   
+  
+   }
+   .input{
+    width: 644px;
+    height: 50px;
+    border:none;
+    outline: none;
+    padding: 10px 15px;
+   
+    
+   }
+   .join-content{
+    margin-top:50px;
+   }
+   
+   
+
+
+
