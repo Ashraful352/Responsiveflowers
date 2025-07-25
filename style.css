@@ -7,6 +7,7 @@
 
 /* Nav-bar section style start */
 
+/* Default Desktop Styles */
 .main-header{
     display:flex;
     justify-content: space-between;
@@ -39,7 +40,6 @@ nav li a:hover{
     width:15px;
     height:15px;
 }
-
 /* Banner section style start */
 
 .main-banner{
@@ -89,6 +89,12 @@ img{
     margin:auto;
     gap:10px;
  }
+ .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
  .plants-container{
     text-align: center;
     margin-right: 121px;
@@ -259,23 +265,7 @@ img{
 
 
 
-
-
-
-
-
-
-
- 
-
  /*Latest Deal Section End style */
-
-
-
-
-
-
-
 
 
    /* join section start style */
@@ -315,6 +305,7 @@ img{
    .join-content{
     margin-top:50px;
    }
+
 
    /* Footer section start style */
 
@@ -391,6 +382,131 @@ img{
    }
 
    /* Footer section End style */
+
+
+
+   /* Mobile Responsive Design start */
+
+
+
+   @media screen and (max-width:768px) {
+
+    .nav-bar {
+    display: none;
+  }
+
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo-area,
+  .cart-area {
+    width: 48%;
+  }
+
+  .logo-area {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cart-area {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* Banner section responsive */
+  .main-banner{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+
+  .Plants-card{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+
+  }
+  .plants-container{
+    text-align: center;
+    margin-left: 40px;
+
+  }
+
+
+  .plants-lover{
+    display:flex;
+    flex-direction: column;
+  }
+
+
+  .join-section-title{
+    font-size: 25px;
+  }
+   .btn-join-section{
+    width:100px;
+    height:25px;
+   }
+   .input{
+    width: 300px;
+    height: 25px;
+    padding: 5px 10px;
+   }
+   .join-content{
+    margin-top:20px;
+    
+    }
+    .join-section{
+      height:250px;
+    }
+
+     /* footer section responsive start */
+     .main footer{
+        display:flex;
+        flex-direction: column;
+
+     }
+     .footer-container{
+        display:flex;
+        flex-direction: column;
+
+     }
+     .footer-logo{
+        width: 150px;
+        height: 80px;
+     }
+     .footer-logo img{
+    width:135px;
+    height:82px;
+   }
+   .footer-description{
+    width:150px;
+    height:81px;
+    font-size: 20px;
+   }
+   .plants-container{
+    display: flex;
+    flex-direction: column;
+   }
+
+
+    
+
+
+
+
+
+}
+    
+
+
+
+
+
+
+   
+   
 
 
 
